@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deshna Academy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+/* Navbar */
+nav{
+    background:#1e3c72;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h2{
+    color:white;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffd700;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1588072432836-e10032774350');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    padding:12px 30px;
+    background:#ffd700;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+/* About Section */
+.about{
+    padding:60px 50px;
+    text-align:center;
+}
+
+.about h2{
+    margin-bottom:20px;
+    color:#1e3c72;
+}
+
+/* Courses Section */
+.courses{
+    background:#fff;
+    padding:60px 50px;
+}
+
+.courses h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#1e3c72;
+}
+
+.course-box{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f4f6f9;
+    padding:30px;
+    width:280px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* Contact */
+.contact{
+    padding:60px 50px;
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:20px;
+    color:#1e3c72;
+}
+
+footer{
+    background:#1e3c72;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2> Deshna Academy </h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Classes</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div>
+        <h1>Welcome to Deshna Academy</h1>
+        <p>Where talent meets excellence</p>
+        <a href="Admission form personal details.html" target="_blank" class="btn">Apply Now</a>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+        Deshna Academy is committed to providing quality education 
+        and holistic development of students. We focus on discipline, 
+        knowledge, and character building.
+    </p>
+</section>
+
+<!-- Courses -->
+<section class="courses" id="courses">
+    <h2>Our Classes</h2>
+    <div class="course-box">
+        <div class="card">
+            <h3>Pre-Primary Section</h3>
+            <p>Class Nur to 1</p>
+        </div>
+        <div class="card">
+            <h3>Primary Section</h3>
+            <p>Class 2 to 5</p>
+        </div>
+        <div class="card">
+            <h3>Middle Section</h3>
+            <p>Class 6 to 8</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Gandhor Road Block Jalilpur Bijnor, Uttar Pradesh</p>
+    <p>📞 +91 9045318177</p>
+    <p>📧 deshnaaccademygmail.com</p>
+</section>
+
+<footer>
+    © 2026 Deshna Academy | All Rights Reserved
+</footer>
+
+</body>
+</html>
